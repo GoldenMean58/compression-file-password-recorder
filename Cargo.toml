@@ -1,0 +1,13 @@
+[package]
+name = "compression-file-password-recorder"
+version = "0.1.0"
+authors = ["lishuxiang <lishuxiang@cug.edu.cn>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+blake2 = "0.8.1"
+clap = "2.33.0"
+rusqlite = "0.21.0"
+time = "0.1.37"
