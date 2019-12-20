@@ -9,5 +9,5 @@ edition = "2018"
 [dependencies]
 blake2 = "0.8.1"
 clap = "2.33.0"
-rusqlite = "0.21.0"
+rusqlite = {version = "0.21.0", features = ["bundled"]}
 time = "0.1.37"
